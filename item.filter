@@ -68,7 +68,7 @@ ItemDisplay[mbr]: %PURPLE%Mephisto's Brain
 //Ear
 ItemDisplay[ear]: %PURPLE% lmao youve rekt %NAME%
 
-ItemDisplay[EQ2 !MAG DEF>800]: %PURPLE%%NAME% (800+ base)
+ItemDisplay[EQ2 NMAG DEF>800]: %PURPLE%%NAME% (800+ base)
 
 //Utility
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
