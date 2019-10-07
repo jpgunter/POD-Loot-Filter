@@ -35,18 +35,14 @@ ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %PURPLE%********* %NAME% **********
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%KEY OF CHAOS%RED% ¤¤¤¤¤¤¤¤¤¤
-//ItemDisplay[ma1]: %PURPLE%%NAME%
-ItemDisplay[ma1]: %PURPLE%%NAME%
-//ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
-ItemDisplay[ma2]: %PURPLE%****Tier 4 Relic****
-//ItemDisplay[ma3]: %PURPLE%%NAME%
+
+//Relics
+ItemDisplay[ma1]: %PURPLE%****%NAME%****
+ItemDisplay[ma2]: %PURPLE%****%NAME%****
 ItemDisplay[ma3]: %PURPLE%****%NAME%****
-//ItemDisplay[ma4]: %PURPLE% Tier 1 Relic
-ItemDisplay[ma4]: %PURPLE%****Tier 1 Relic****
-//ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-ItemDisplay[ma5]: %PURPLE%****Tier 2 Relic****
-//ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
-ItemDisplay[ma6]: %PURPLE%****Tier 3 Relic****
+ItemDisplay[ma4]: %PURPLE%****%NAME%****
+ItemDisplay[ma5]: %PURPLE%****%NAME%****
+ItemDisplay[ma6]: %PURPLE%****%NAME%****
 ItemDisplay[maz]: %PURPLE%****%NAME%****
 
 //Vendor items
