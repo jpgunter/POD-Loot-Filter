@@ -38,16 +38,16 @@ ItemDisplay[cx7]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%KEY OF CHAOS%RED% ¤¤¤¤¤
 //ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 //ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
-ItemDisplay[ma2]: %PURPLE%Tier 4 Relic
+ItemDisplay[ma2]: %PURPLE%****Tier 4 Relic****
 //ItemDisplay[ma3]: %PURPLE%%NAME%
-ItemDisplay[ma3]: %PURPLE%%NAME%
+ItemDisplay[ma3]: %PURPLE%****%NAME%****
 //ItemDisplay[ma4]: %PURPLE% Tier 1 Relic
-ItemDisplay[ma4]: %PURPLE% Tier 1 Relic
+ItemDisplay[ma4]: %PURPLE%****Tier 1 Relic****
 //ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
-ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
+ItemDisplay[ma5]: %PURPLE%****Tier 2 Relic****
 //ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
-ItemDisplay[ma6]: %PURPLE%Tier 3 Relic
-ItemDisplay[maz]: %PURPLE%%NAME%
+ItemDisplay[ma6]: %PURPLE%****Tier 3 Relic****
+ItemDisplay[maz]: %PURPLE%****%NAME%****
 
 //Vendor items
 //Value Vendor items
@@ -215,10 +215,10 @@ ItemDisplay[gsb CLVL>80]:
 ItemDisplay[gsy CLVL>80]:
 ItemDisplay[sku CLVL>80]:
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%Amethyst
-ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[gzv]: %ORANGE%*Amethyst*
+ItemDisplay[glw]: %ORANGE%*Diamond*
 ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glr]: %ORANGE%*Ruby*
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
 ItemDisplay[skl]: %ORANGE%Skull
