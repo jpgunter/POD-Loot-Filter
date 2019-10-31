@@ -101,16 +101,10 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 
 //RUNES
 //1-16
-ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% 1
-ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% 2
-ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% 3
 ItemDisplay[r01]: %TAN%%RUNENAME% 1
 ItemDisplay[r02]: %TAN%%RUNENAME% 2
 ItemDisplay[r03]: %TAN%%RUNENAME% 3 
-ItemDisplay[r02]: %GRAY%%RUNENAME% 2 
-ItemDisplay[r03]: %GRAY%%RUNENAME% 3
-ItemDisplay[r04]: %TAN%Nef 4
-ItemDisplay[r05 CLVL>86]: %GRAY%%RUNENAME% 5
+ItemDisplay[r04]: %TAN%%RUNENAME% 4
 ItemDisplay[r05]: %TAN%%RUNENAME% 5
 ItemDisplay[r06]: %ORANGE%Ith 6 [C Belt]
 ItemDisplay[r07]: %ORANGE%Tal 7 [B Belt]
@@ -119,16 +113,14 @@ ItemDisplay[r09]: %TAN%Ort 9
 ItemDisplay[r10]: %ORANGE%Thul 10 [C Boots]
 ItemDisplay[r11]: %ORANGE%Amn 11 [B Amulet]
 ItemDisplay[r12]: %ORANGE%Sol 12 [B Ring]
-ItemDisplay[r13 CLVL>86]: %GRAY%%RUNENAME% 13 
-ItemDisplay[r14 CLVL>86]: %GRAY%%RUNENAME% 14 
 ItemDisplay[r13]: %TAN%%RUNENAME% 13 
 ItemDisplay[r14]: %TAN%%RUNENAME% 14 
 ItemDisplay[r15]: %TAN%%RUNENAME% 15
-ItemDisplay[r16]: %TAN%io 16
+ItemDisplay[r16]: %TAN%%RUNENAME% 16
 //17-23
-ItemDisplay[r17]: %TAN%%RUNENAME% 17
-ItemDisplay[r18]: %TAN%%RUNENAME% 18
-ItemDisplay[r19]: %TAN%%RUNENAME% 19
+ItemDisplay[r17]: %ORANGE%%RUNENAME% 17 (Up Uniq Wep)
+ItemDisplay[r18]: %ORANGE%%RUNENAME% 18 (Up Uniq Arm)
+ItemDisplay[r19]: %ORANGE%¤ %RUNENAME% 19 ¤
 ItemDisplay[r20]: %RED%¤ %PURPLE%LEM 20%RED% ¤
 ItemDisplay[r21]: %RED%¤ %PURPLE%PUL 21%RED% ¤
 ItemDisplay[r22]: %RED%¤¤ %PURPLE%UM 22%RED% ¤¤
