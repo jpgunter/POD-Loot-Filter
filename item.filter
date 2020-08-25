@@ -25,11 +25,11 @@ ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4 CLVL>59]: 
 //Essences (Respec Token)
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %GREEN%Destruction [Baal]
-ItemDisplay[toa]: %PURPLE%Token of Absolution
+ItemDisplay[tes]: %GOLD%**** Suffering [Andariel] ****
+ItemDisplay[ceh]: %GOLD%**** Hatred [Mephisto] ****
+ItemDisplay[bet]: %GOLD%**** Terror [Diablo] ****
+ItemDisplay[fed]: %GREEN%**** Destruction [Baal] ****
+ItemDisplay[toa]: %PURPLE%**** Token of Absolution ****
 //PoD Items
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %PURPLE%********* %NAME% **********
@@ -38,11 +38,11 @@ ItemDisplay[cx7]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%KEY OF CHAOS%RED% ¤¤¤¤¤
 
 //Relics
 ItemDisplay[ma1]: %PURPLE%****%NAME%****
-ItemDisplay[ma2]: %PURPLE%****Tier 4 Relic****
+ItemDisplay[ma2]: %PURPLE%****%NAME%****
 ItemDisplay[ma3]: %PURPLE%****%NAME%****
-ItemDisplay[ma4]: %PURPLE%****Tier 1 Relic****
-ItemDisplay[ma5]: %PURPLE%****Tier 2 Relic****
-ItemDisplay[ma6]: %PURPLE%****Tier 3 Relic****
+ItemDisplay[ma4]: %PURPLE%****%NAME%****
+ItemDisplay[ma5]: %PURPLE%****%NAME%****
+ItemDisplay[ma6]: %PURPLE%****%NAME%****
 ItemDisplay[maz]: %PURPLE%****%NAME%****
 
 //Vendor items
@@ -115,19 +115,19 @@ ItemDisplay[r11]: %ORANGE%Amn 11 [B Amulet]
 ItemDisplay[r12]: %ORANGE%Sol 12 [B Ring]
 ItemDisplay[r13]: %TAN%%RUNENAME% 13 
 ItemDisplay[r14]: %TAN%%RUNENAME% 14 
-ItemDisplay[r15]: %TAN%%RUNENAME% 15
+ItemDisplay[r15]: %ORANGE%Hel 15 [Remove Sox]
 ItemDisplay[r16]: %TAN%%RUNENAME% 16
 //17-23
 ItemDisplay[r17]: %ORANGE%%RUNENAME% 17 (Up Uniq Wep)
 ItemDisplay[r18]: %ORANGE%%RUNENAME% 18 (Up Uniq Arm)
 ItemDisplay[r19]: %ORANGE%¤ %RUNENAME% 19 ¤
-ItemDisplay[r20]: %RED%¤ %PURPLE%LEM 20%RED% ¤
-ItemDisplay[r21]: %RED%¤ %PURPLE%PUL 21%RED% ¤
-ItemDisplay[r22]: %RED%¤¤ %PURPLE%UM 22%RED% ¤¤
-ItemDisplay[r23]: %RED%¤¤ %PURPLE%MAL 23%RED% ¤¤
+ItemDisplay[r20]: %RED%¤¤¤ %PURPLE%LEM 20%RED% ¤¤¤
+ItemDisplay[r21]: %RED%¤¤¤ %PURPLE%PUL 21%RED% ¤¤¤
+ItemDisplay[r22]: %RED%¤¤¤¤ %PURPLE%UM 22%RED% ¤¤¤¤
+ItemDisplay[r23]: %RED%¤¤¤¤ %PURPLE%MAL 23%RED% ¤¤¤¤
 //24-33
-ItemDisplay[r24]: %RED%¤¤¤ %PURPLE%IST 24%RED% ¤¤¤
-ItemDisplay[r25]: %RED%¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤
+ItemDisplay[r24]: %RED%¤¤¤¤¤ %PURPLE%IST 24%RED% ¤¤¤¤¤
+ItemDisplay[r25]: %RED%¤¤¤¤¤¤ %PURPLE%GUL 25%RED% ¤¤¤¤¤¤
 ItemDisplay[r26]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%VEX 26%RED% ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[r27]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%OHM 27%RED% ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[r28]: %RED%¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%LO 28%RED% ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
@@ -203,13 +203,13 @@ ItemDisplay[gsb CLVL>80]:
 ItemDisplay[gsy CLVL>80]:
 ItemDisplay[sku CLVL>80]:
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%*Amethyst*
-ItemDisplay[glw]: %ORANGE%*Diamond*
-ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%*Ruby*
-ItemDisplay[glb]: %ORANGE%Sapphire
-ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[gzv]: %ORANGE%*F Amethyst*
+ItemDisplay[glw]: %ORANGE%*F Diamond*
+ItemDisplay[glg]: %ORANGE%F Emerald
+ItemDisplay[glr]: %ORANGE%*F Ruby*
+ItemDisplay[glb]: %ORANGE%F Sapphire
+ItemDisplay[gly]: %ORANGE%F Topaz
+ItemDisplay[skl]: %ORANGE%F Skull
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P AMETHYST
 ItemDisplay[gpw]: %ORANGE%P DIAMOND
@@ -236,9 +236,9 @@ ItemDisplay[UNI !ETH !ID uap]: %RED%¤¤¤¤¤¤ %PURPLE%SHAKO%RED% ¤¤¤¤¤¤
 //Crown of Ages
 ItemDisplay[UNI !ETH !ID urn]: %PURPLE%%NAME%
 //Andariel's Visage
-ItemDisplay[UNI !ETH !ID usk]: %PURPLE%%NAME%
+ItemDisplay[UNI !ETH !ID usk]: %RED%¤¤¤¤¤¤ %PURPLE%Andariel's Visage%RED% ¤¤¤¤¤¤
 //Vampire Gaze
-ItemDisplay[UNI !ETH !ID xh9]: %PURPLE%%NAME%
+ItemDisplay[UNI !ETH !ID xh9]: %RED%¤¤¤¤¤¤ %PURPLE%Vamp Gaze%RED% ¤¤¤¤¤¤
 //Arreat's Face
 ItemDisplay[UNI !ETH !ID baa]: %RED%¤¤¤ %PURPLE%Arreat's Face%RED% ¤¤¤
 //Jalal's Mane
@@ -277,7 +277,7 @@ ItemDisplay[SET !ETH !ID uar]: %RED%¤¤¤¤¤¤¤ %PURPLE%IK's Armour%RED% ¤¤
 
 //Gloves
 //Dracul's Grasp
-ItemDisplay[UNI !ETH !ID uvg]: %PURPLE%%NAME%
+ItemDisplay[UNI !ETH !ID uvg]: %RED%¤¤¤¤¤¤ %PURPLE%Drac's Drasp%RED% ¤¤¤¤¤¤
 //Steelrend
 ItemDisplay[UNI !ETH !ID uhg]: %NAME%
 //Soul Drainer
@@ -449,32 +449,32 @@ ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 85-]
 ItemDisplay[MAG rin]: %BLUE%%NAME%%GRAY%[%ILVL%]
 
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew ILVL>65]: %PURPLE%** JEWEL **
+ItemDisplay[MAG !ID jew ILVL>65]: %PURPLE%***** JEWEL *****
 ItemDisplay[MAG !ID jew ILVL<66]: JEWEL
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
 //Sharkskin & Vampirebone Gloves
-ItemDisplay[MAG xvg]: %NAME%
-ItemDisplay[MAG uvg]: %NAME%
+ItemDisplay[MAG xvg]: %Red%Blood Gloves
+ItemDisplay[MAG uvg]: %Red%Blood Gloves
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Heavy Bracers & Vambraces
-ItemDisplay[MAG xmg]: %NAME%
-ItemDisplay[MAG umg]: %NAME%
+ItemDisplay[MAG xmg]: %Red%HP Gloves
+ItemDisplay[MAG umg]: %Red%HP Gloves
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
 //Caster Belts (Vampirefang/Sharkskin) + ITH + AMETHYST + JEWEL
 ItemDisplay[MAG uvc ILVL>84]: %ORANGE%Caster Belt
 ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt
-ItemDisplay[MAG uvc]: %NAME%
-ItemDisplay[MAG zvb]: %NAME%
+ItemDisplay[MAG uvc]: %ORANGE%Caster Belt
+ItemDisplay[MAG zvb]: %ORANGE%Caster Belt
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc]: %NAME%
-ItemDisplay[MAG zmb]: %NAME%
-ItemDisplay[MAG umc ILVL>84]: 
-ItemDisplay[MAG zmb ILVL>84]: 
+ItemDisplay[MAG umc]: %RED%Blood Belt
+ItemDisplay[MAG zmb]: %RED%Blood Belt
+ItemDisplay[MAG umc ILVL>84]: %RED%Blood Belt
+ItemDisplay[MAG zmb ILVL>84]: %RED%Blood Belt
 
 //BOOTS
 //Caster Boots + Thul + Amethyst + Jewel
@@ -499,8 +499,10 @@ ItemDisplay[MAG ID cm3 TABSK18=1]:%PURPLE%Nsum Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK9=1]:%PURPLE%Lite Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK2=1]:%PURPLE%Java Skiller%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 TABSK0=1]:%PURPLE%Bow Skiller%WHITE%[%ILVL%]
-ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%ILVL%]
-ItemDisplay[MAG ID cm1 MANA>13]:%PURPLE%Mana Small Charm%WHITE%[%ILVL%]
+
+ItemDisplay[MAG ID cm1 LIFE>15]:%PURPLE%Life Small Charm%WHITE%[%LIFE%]
+ItemDisplay[MAG ID cm1 MANA>13]:%PURPLE%Mana Small Charm%WHITE%[%MANA%]
+
 ItemDisplay[MAG ID cm1 RES>1]:%PURPLE%@Res Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 RES>1]:%PURPLE%@Res Large Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm3 RES>1]:%PURPLE%@Res Grand Charm%WHITE%[%ILVL%]
@@ -511,7 +513,7 @@ ItemDisplay[RW]: %NAME%
 //Charms
 ItemDisplay[!UNI ID (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%[%ILVL%]
 ItemDisplay[!UNI !ID (cm2)]: *%NAME%[%ILVL%]*
-ItemDisplay[!UNI !ID (cm1 OR cm3)]: %PURPLE%****%NAME%[%ILVL%]****
+ItemDisplay[!UNI !ID (cm1 OR cm3)]: %PURPLE%******%NAME%[%ILVL%]*******
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %PURPLE%****Unique %NAME%****
 
 //
