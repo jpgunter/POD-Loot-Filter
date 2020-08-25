@@ -87,7 +87,7 @@ ItemDisplay[gps]:
 ItemDisplay[gpl]:
 ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
 ItemDisplay[vps CLVL>54]:
-//Hide MAGIC Arrows & Bolts above level 60
+//Hide Magic Arrows & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>60]:
 ItemDisplay[aq2 RARE ILVL>60]: %NAME%
 ItemDisplay[aq2 UNI]: %NAME%
@@ -512,6 +512,8 @@ ItemDisplay[MAG ID cm1 MANA=15]:%PURPLE%Mana Small Charm%WHITE%[15]
 ItemDisplay[MAG ID cm1 MANA=16]:%PURPLE%Mana Small Charm%WHITE%[16]
 ItemDisplay[MAG ID cm1 MANA>16]:%PURPLE%Mana Small Charm%WHITE%[17]
 ItemDisplay[MAG ID cm1 (LIFE>15 AND MANA>13 ]:%PURPLE%Life+Mana Small Charm%WHITE%[17]
+
+ItemDisplay[MAG ID cm1 ITEMSTAT80>5]:%PURPLE%MF Small Charm
 
 ItemDisplay[MAG ID cm1 RES>1]:%PURPLE%@Res Small Charm%WHITE%[%ILVL%]
 ItemDisplay[MAG ID cm2 RES>1]:%PURPLE%@Res Large Charm%WHITE%[%ILVL%]
