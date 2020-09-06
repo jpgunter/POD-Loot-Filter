@@ -34,7 +34,7 @@ ItemDisplay[toa]: %PURPLE%**** Token of Absolution ****
 ItemDisplay[std]: %NAME%
 ItemDisplay[cx5]: %PURPLE%********* %NAME% **********
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%KEY OF CHAOS%RED% ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[cx7]: %PURPLE%KEY OF CHAOS
 
 //Relics
 ItemDisplay[ma1]: %PURPLE%****%NAME%****
@@ -43,6 +43,9 @@ ItemDisplay[ma3]: %PURPLE%****%NAME%****
 ItemDisplay[ma4]: %PURPLE%****%NAME%****
 ItemDisplay[ma5]: %PURPLE%****%NAME%****
 ItemDisplay[ma6]: %PURPLE%****%NAME%****
+ItemDisplay[ma7]: %PURPLE%****%NAME%****
+ItemDisplay[ma8]: %PURPLE%****%NAME%****
+ItemDisplay[ma9]: %PURPLE%****%NAME%****
 ItemDisplay[maz]: %PURPLE%****%NAME%****
 
 //Vendor items
@@ -203,21 +206,21 @@ ItemDisplay[gsb CLVL>80]:
 ItemDisplay[gsy CLVL>80]:
 ItemDisplay[sku CLVL>80]:
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%*F Amethyst*
-ItemDisplay[glw]: %ORANGE%*F Diamond*
-ItemDisplay[glg]: %ORANGE%F Emerald
-ItemDisplay[glr]: %ORANGE%*F Ruby*
-ItemDisplay[glb]: %ORANGE%F Sapphire
-ItemDisplay[gly]: %ORANGE%F Topaz
-ItemDisplay[skl]: %ORANGE%F Skull
+ItemDisplay[gzv]: %ORANGE%** Amethyst **
+ItemDisplay[glw]: %ORANGE%Diamond
+ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glb]: %ORANGE%Sapphire
+ItemDisplay[gly]: %ORANGE%Topaz
+ItemDisplay[skl]: %ORANGE%**** Skull ****
 //Gems Perfect
-ItemDisplay[gpv]: %ORANGE%P AMETHYST
-ItemDisplay[gpw]: %ORANGE%P DIAMOND
-ItemDisplay[gpg]: %ORANGE%P EMERALD
-ItemDisplay[gpr]: %ORANGE%P RUBY
-ItemDisplay[gpb]: %ORANGE%P SAPPHIRE
-ItemDisplay[gpy]: %ORANGE%P TOPAZ
-ItemDisplay[skz]: %ORANGE%P SKULL
+ItemDisplay[gpv]: %ORANGE%AMETHYST+
+ItemDisplay[gpw]: %ORANGE%DIAMOND+
+ItemDisplay[gpg]: %ORANGE%EMERALD+
+ItemDisplay[gpr]: %ORANGE%RUBY+
+ItemDisplay[gpb]: %ORANGE%SAPPHIRE+
+ItemDisplay[gpy]: %ORANGE%TOPAZ+
+ItemDisplay[skz]: %ORANGE%SKULL+
 // High level hidden gems
 ItemDisplay[glw]:
 ItemDisplay[glg]:
@@ -455,13 +458,13 @@ ItemDisplay[MAG !ID jew ILVL<66]: JEWEL
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
 //Sharkskin & Vampirebone Gloves
-ItemDisplay[MAG xvg]: %Red%Blood Gloves
-ItemDisplay[MAG uvg]: %Red%Blood Gloves
+ItemDisplay[MAG xvg]: %ORANGE%Blood Gloves
+ItemDisplay[MAG uvg]: %ORANGE%Blood Gloves
 
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Heavy Bracers & Vambraces
-ItemDisplay[MAG xmg]: %Red%HP Gloves
-ItemDisplay[MAG umg]: %Red%HP Gloves
+ItemDisplay[MAG xmg]: %ORANGE%HP Gloves
+ItemDisplay[MAG umg]: %ORANGE%HP Gloves
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
@@ -471,8 +474,8 @@ ItemDisplay[MAG zvb ILVL>84]: %ORANGE%Caster Belt
 ItemDisplay[MAG uvc]: %ORANGE%Caster Belt
 ItemDisplay[MAG zvb]: %ORANGE%Caster Belt
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
-ItemDisplay[MAG umc]: %RED%Blood Belt
-ItemDisplay[MAG zmb]: %RED%Blood Belt
+ItemDisplay[MAG umc]: %ORANGE%Blood Belt
+ItemDisplay[MAG zmb]: %ORANGE%Blood Belt
 ItemDisplay[MAG umc ILVL>84]: %RED%Blood Belt
 ItemDisplay[MAG zmb ILVL>84]: %RED%Blood Belt
 
