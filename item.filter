@@ -32,12 +32,13 @@ ItemDisplay[fed]: %GREEN%**** Destruction [Baal] ****
 ItemDisplay[toa]: %PURPLE%**** Token of Absolution ****
 //PoD Items
 ItemDisplay[std]: %NAME%
-ItemDisplay[cx5]: %RED%¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤
+//OOC
+ItemDisplay[cx5]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
-ItemDisplay[cx7]: %PURPLE%KEY OF CHAOS
+ItemDisplay[cx7]: %RED%¤¤ %PURPLE%%NAME%%RED% ¤¤
 
 //Relics
-ItemDisplay[ma1 OR ma2 OR ma3 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma0 OR maz]: %RED%¤¤¤ %WHITE%%NAME%%RED% ¤¤¤
+ItemDisplay[ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma0 OR maz]: %RED%¤¤¤ %YELLOW%%NAME%%RED% ¤¤¤
 
 //Vendor items
 //Value Vendor items
