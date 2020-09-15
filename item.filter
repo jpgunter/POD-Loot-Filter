@@ -32,7 +32,7 @@ ItemDisplay[fed]: %GREEN%**** Destruction [Baal] ****
 ItemDisplay[toa]: %PURPLE%**** Token of Absolution ****
 //PoD Items
 ItemDisplay[std]: %NAME%
-ItemDisplay[cx5]: %PURPLE%********* %NAME% **********
+ItemDisplay[cx5]: %RED%¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %PURPLE%KEY OF CHAOS
 
