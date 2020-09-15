@@ -452,7 +452,7 @@ ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 85-]
 ItemDisplay[MAG rin]: %BLUE%%NAME%%GRAY%[%ILVL%]
 
 //Blue Jewels for crafting
-ItemDisplay[MAG !ID jew ILVL>65]: %PURPLE%***** JEWEL *****
+ItemDisplay[MAG !ID jew ILVL>65]: %WHITE%¤¤¤¤¤ %PURPLE%%NAME%%WHITE% ¤¤¤¤¤
 ItemDisplay[MAG !ID jew ILVL<66]: JEWEL
 
 //Gloves
@@ -528,8 +528,8 @@ ItemDisplay[RW]: %NAME%
 //Charms
 ItemDisplay[!UNI ID (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%[%ILVL%]
 ItemDisplay[!UNI !ID (cm2)]: *%NAME%[%ILVL%]*
-ItemDisplay[!UNI !ID (cm1 OR cm3)]: %PURPLE%******%NAME%[%ILVL%]*******
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %PURPLE%****Unique %NAME%****
+ItemDisplay[!UNI !ID (cm1 OR cm3)]: %RED%¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤
+ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤¤¤¤¤ %PURPLE%Unique %NAME%%RED% ¤¤¤¤¤
 
 //
 
