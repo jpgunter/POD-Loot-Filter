@@ -415,7 +415,7 @@ ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %RED%¤¤¤¤¤ %PURPLE%FOH WEP%R
 ItemDisplay[MAG WP13 (TABSK25=3 AND SK119=3)]: %RED%¤¤¤¤¤ %PURPLE%SANC AURA WEP%RED% ¤¤¤¤¤
 
 //Amulets
-ItemDisplay[MAG !ID amu ILVL>59]: %PURPLE%*****%NAME%*****
+ItemDisplay[MAG !ID amu ILVL>59]: %PURPLE%**%NAME%**
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+]
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
 ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 94+]
@@ -825,7 +825,7 @@ ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<75)]: %DGREEN%%NAME% %WHITE% 4 soc
 //INSIGHT INFINITY
 //INSIGHT or INFINITY 4os Polearms, ETH 4os Polearms, Eth Elite Polearms, ETH Elite 4os Polearms
 ItemDisplay[NMAG ETH SOCK=4 7vo]: 
-ItemDisplay[NMAG ETH SOCK=4 7s8]: ETH %NAME%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=4 7s8]: %RED%¤¤¤¤¤ %PURPLE%ETH %NAME%%RED% ¤¤¤¤¤[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=4 7pa]: 
 ItemDisplay[NMAG ETH SOCK=4 7h7]: ETH %NAME%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=4 7wc]: ETH %NAME%[%SOCKETS%]
@@ -865,7 +865,7 @@ ItemDisplay[NMAG wsc ETH SOCK=4 CLVL<93]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG 9wc ETH SOCK=4 CLVL<93]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 //
 ItemDisplay[ETH 7vo NMAG !SUP SOCK=0]: 
-ItemDisplay[ETH 7s8 NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
+ItemDisplay[ETH 7s8 NMAG !SUP SOCK=0]: %GREEN%ETH %NAME%%YELLOW%[%SOCKETS%]
 ItemDisplay[ETH 7pa NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[ETH 7h7 NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[ETH 7wc NMAG !SUP SOCK=0]: %GRAY%ETH %NAME%%GRAY%[%SOCKETS%]
@@ -1187,7 +1187,6 @@ ItemDisplay[amc SOCK=3 NMAG]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 //ItemDisplay[!RW RARE CL5]: %NAME%
 
 //Leveling - Generic
-ItemDisplay[RARE]: %NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 ETH (ARMOR OR WEAPON)]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK=0 ETH (ARMOR OR WEAPON)]: ETH %NAME%
 ItemDisplay[!RW NORM NMAG ILVL<15 SOCK>0 (ARMOR OR WEAPON)]: %NAME% [%SOCKETS%]
@@ -1216,12 +1215,12 @@ ItemDisplay[RARE lbl !ID CLVL>40]:
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE amu !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE rin !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %RED%¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤
+ItemDisplay[RARE amu !ID]: %RED%¤¤¤¤¤ %PURPLE%Rare Amulet%RED% ¤¤¤¤¤
+ItemDisplay[RARE rin !ID]: %RED%¤¤ %PURPLE%Rare Ring%RED% ¤¤
+ItemDisplay[RARE EQ4 !ID]: %YELLOW%¤¤%NAME%¤¤
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%¤¤%NAME%¤¤
+ItemDisplay[RARE EQ6 !ID]: %YELLOW%¤¤%NAME%¤¤
 ItemDisplay[RARE jew !ID]: %YELLOW%JEWEL
 //
 //Magic Diadems
@@ -2053,6 +2052,7 @@ ItemDisplay[INF ILVL<10 !RW !leg]: %NAME%
 ItemDisplay[INF !RW !leg]:
 
 //Catchall
+ItemDisplay[RARE]: %NAME%
 ItemDisplay[MAG !ID uhg]: 
 ItemDisplay[NMAG lsd]:
 ItemDisplay[NMAG 7p7]:
