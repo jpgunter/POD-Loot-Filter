@@ -33,7 +33,7 @@ ItemDisplay[toa]: %PURPLE%**** Token of Absolution ****
 //PoD Items
 ItemDisplay[std]: %NAME%
 //OOC
-ItemDisplay[cx5]: %RED%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[cx5]: %WHITE%¤¤¤¤¤¤¤¤¤¤ %PURPLE%%NAME%%WHITE% ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[cx6]: %PURPLE%Diablo's Soulstone
 ItemDisplay[cx7]: %RED%¤¤ %PURPLE%%NAME%%RED% ¤¤
 
@@ -530,8 +530,8 @@ ItemDisplay[RW]: %NAME%
 //Charms
 ItemDisplay[!UNI ID (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%[%ILVL%]
 ItemDisplay[!UNI !ID (cm2)]: *%NAME%[%ILVL%]*
-ItemDisplay[!UNI !ID (cm1 OR cm3)]: %RED%¤¤¤¤¤ %PURPLE%%NAME%%RED% ¤¤¤¤¤
-ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%¤¤¤¤¤ %PURPLE%Unique %NAME%%RED% ¤¤¤¤¤
+ItemDisplay[!UNI !ID (cm1 OR cm3)]: %WHITE%¤¤¤¤¤ %PURPLE%%NAME%%WHITE% ¤¤¤¤¤
+ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %WHITE%¤¤¤¤¤ %PURPLE%%NAME%%WHITE% ¤¤¤¤¤
 
 //
 
