@@ -216,7 +216,7 @@ ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: " %ORANGE%Skull "
+ItemDisplay[skl]: %ORANGE%*** Skull ***
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P %PURPLE%AMETHYST
 ItemDisplay[gpw]: %ORANGE%P %WHITE%DIAMOND
